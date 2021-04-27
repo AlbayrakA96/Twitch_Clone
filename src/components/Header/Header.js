@@ -8,11 +8,11 @@ const Header = () => {
       <div className="header__left">
         <img className="header__leftLogo" src="https://pngimg.com/uploads/twitch/twitch_PNG6.png" alt="twitch logo" />
 
-        <h2>Following</h2>
-        <h2>Browse</h2>
+        <h3>Following</h3>
+        <h3>Browse</h3>
         <div className="header__verticalLine"></div>
-        <h2>Exports</h2>
-        <h2>Music</h2>
+        <h3>Exports</h3>
+        <h3>Music</h3>
         <i className="fas fa-ellipsis-h"></i>
       </div>
 

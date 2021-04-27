@@ -1,11 +1,13 @@
 import "./App.css";
-import Header from "./components/Header/Header"; // Auto Import - ES6, TS, JSX, TSX (VSCode Extension)
+import Header from "./components/Header/Header";
+import Sidebar from "./components/Sidebar/Sidebar";
 
 function App() {
   return (
     // BEM
     <div className="app">
       <Header />
+      <Sidebar />
     </div>
   );
 }
